@@ -1,1 +1,135 @@
-body { font-family: Arial; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.hero {
+  background: #000;
+  color: #fff;
+  padding: 4em 1em;
+  text-align: center;
+}
+
+section {
+  padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.fahrzeug-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.fahrzeug-details img {
+  width: 100%;
+  max-width: 500px;
+  border: 3px solid #ff0000;
+  transition: transform 0.3s ease;
+}
+
+.fahrzeug-details img:hover {
+  transform: scale(1.05);
+}
+
+.fahrzeug-info {
+  flex: 1;
+}
+
+.social-buttons {
+  margin: 1em 0;
+}
+
+.whatsapp-button, .instagram-button {
+  display: inline-block;
+  margin: 0.5em 1em 1em 0;
+  padding: 0.5em 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da851;
+}
+
+.instagram-button {
+  background-color: #C13584;
+}
+
+.instagram-button:hover {
+  background-color: #a52c6f;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  color: #e0e0e0;
+}
+
+form button {
+  padding: 0.6em 1.2em;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #cc0000;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
